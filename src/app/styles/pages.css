@@ -1,0 +1,14 @@
+.horizontal {
+    display: flex;
+  }
+
+  .group-section {
+    box-sizing: border-box;
+    width: 45%;
+    max-width: 400px;
+    min-width: 240px;
+  }
+
+  .group-section:not(.horizontal):not(:first-of-type) {
+    margin-top: 10px;
+  }

@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+  }
+
+  .header > h1 {
+    display: inline-block;
+    margin: 12px 8px;
+    font-size: 1.4rem;
+  }
+
+  .checkbox {
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .checkbox > input[type=checkbox] {
+    margin-right: 4px;
+  }
+
+  .github-link {
+    margin-left: 16px;
+    color: inherit;
+  }
+
+  .github-icon {
+    height: 24px;
+    width: 67.5px;
+  }
